@@ -1,0 +1,30 @@
+
+
+<div class="row marketing">
+<form name="form" class="form" ng-submit="form.$valid && submit()">
+<fieldset>
+	<div class="form-group">
+	<label for="name"> FIRST NAME * : &nbsp;</label><input class="form-control" type="text" name="name" id="name" ng-model="data.name" required> </input>
+	</div>
+	<div class="form-group">	
+	<label for="lastName"> LAST NAME * : &nbsp;</label><input class="form-control"  type="text" id="lastName" name="lastName" ng-model="data.lastName" required> </input>
+	</div>
+	<div class="form-group">
+	<label for="email" > EMAIL * : &nbsp;</label><input  class="form-control"  id="email" type="email" name="email" ng-model="data.email" required> </input>
+	</div>
+		<div class="form-group">
+	<label for="phone"> PHONE * : &nbsp;</label><input class="form-control" type="phone" id="phone" name="phone" ng-model="data.phone" required> </input>
+	</div>
+		<div class="form-group">
+	<label for="description" > DESCRIPTION * : &nbsp;</label><input class="form-control" type="text" id="description" name="description" ng-model="data.description" required> </input>
+	</div>
+	<div class="intput-group">
+            <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+
+</fieldset>
+</form>
+</div>
+
+
+
